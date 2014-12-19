@@ -2,27 +2,28 @@
   "name": "hubot-scala",
   "description": "Run scala code in hubot, via a heroku server",
   "version": "1.0.0",
-  "authors": "David Newell <beta@alumni.rice.edu>",
   "license": "MIT",
-
   "keywords": [
     "hubot",
     "hubot-scripts",
     "scala"
   ],
-
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-example.git"
+    "url": "git@github.com:rustedgrail/hubot-scala.git"
   },
-
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-example/issues"
+    "url": "https://github.com/rustedgrail/hubot-scala/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
-  "main": "index.coffee"
+  "main": "index.coffee",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Newell <beta@alumni.rice.edu>"
 }
