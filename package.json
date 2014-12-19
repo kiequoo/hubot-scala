@@ -1,0 +1,28 @@
+{
+  "name": "hubot-scala",
+  "description": "Run scala code in hubot, via a heroku server",
+  "version": "1.0.0",
+  "authors": "David Newell <beta@alumni.rice.edu>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "scala"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-example.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-example/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "main": "index.coffee"
+}
