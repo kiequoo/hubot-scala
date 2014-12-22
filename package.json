@@ -1,7 +1,7 @@
 {
   "name": "hubot-scala",
   "description": "Run scala code in hubot, via a heroku server",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "MIT",
   "keywords": [
     "hubot",
