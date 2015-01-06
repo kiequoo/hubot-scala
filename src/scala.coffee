@@ -36,4 +36,4 @@ module.exports = (robot) ->
     req.setHeader "Content-Type", "text/plain;charset=UTF-8"
 
     req.on 'error', console.log
-    req.end msg.match[1]
+    req.end @unescapeHtml msg.match[1]
