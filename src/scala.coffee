@@ -32,7 +32,7 @@ module.exports = (robot) ->
         res.data += chunk.toString()
 
       res.on 'end', ->
-        msg.send res.data
+        msg.send "`" + res.data + "`"
 
     req.setHeader "Content-Type", "text/plain;charset=UTF-8"
 
