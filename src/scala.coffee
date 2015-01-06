@@ -14,6 +14,7 @@
 #   rustedgrail
 
 http = require 'https'
+_s   = require("underscore.string")
 # http = require 'http'
 
 module.exports = (robot) ->
@@ -36,4 +37,4 @@ module.exports = (robot) ->
     req.setHeader "Content-Type", "text/plain;charset=UTF-8"
 
     req.on 'error', console.log
-    req.end msg.unescapeHtml msg.match[1]
+    req.end _s.unescapeHTML(msg.match[1])
